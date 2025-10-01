@@ -21,6 +21,5 @@ services:
       - redis-data:/data
 
 volumes:
-  postgres-data: []
-  redis-data: []
-
+  postgres-data: {}
+  redis-data: {}
